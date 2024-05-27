@@ -1,8 +1,8 @@
-header {
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   border-bottom: 4px solid black;
   padding-top: 10px;
 }
@@ -33,9 +33,9 @@ header {
   padding-right: 120px;
   font-size: 18px;
   color: rgb(81, 81, 81);
-}
+} */
 
-.title {
+title {
   display: flex;
   flex-direction: column;
 }
@@ -80,7 +80,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -90,6 +90,7 @@ main {
   height: 34px;
   background-color: #f0f0f0;
   border: 1px solid #999999;
+  margin-top: 6px;
 }
 
 .title-input-box ::placeholder {
@@ -102,7 +103,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -112,6 +113,7 @@ main {
   height: 50px;
   background-color: #f0f0f0;
   border: 1px solid #999999;
+  margin-top: 6px;
 }
 
 .description-input-box ::placeholder {
@@ -124,7 +126,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 40px;
@@ -135,6 +136,7 @@ main {
   font-weight: 600;
   color: #5a5a5a;
   margin-bottom: 2px;
+  margin-top: 6px;
 }
 
 .word-list-row {

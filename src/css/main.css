@@ -1,42 +1,6 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-  border-bottom: 4px solid black;
-  padding-top: 10px;
-}
-
-.header-logo {
-  position: relative;
-  padding-left: 120px;
-}
-
-.header-logo img {
-  width: 300px;
-  height: 70px;
-  position: relative;
-}
-
-.header-icons img {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-}
-
-.header-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 25px;
-  padding-right: 120px;
-  font-size: 18px;
-  color: rgb(81, 81, 81);
-}
-
 .time {
   padding-left: 120px;
+  font-size: 24px;
 }
 
 main {
@@ -96,15 +60,12 @@ main {
   background-color: blue;
 }
 
-/* 이미지를 숨기는 클래스 */
 .hideImage {
   display: none;
 }
 
-/* 이미지를 보여주는 클래스 */
 .showImage {
   display: block;
-  /* 다른 스타일 지정 */
 }
 
 .modal {
@@ -133,7 +94,7 @@ main {
   width: 632px;
   height: 356px;
   box-shadow: 6px 6px 6px 6px #2e2e2e;
-  opacity: 0; /* 초기에 모달 숨기기 */
+  opacity: 0;
   animation: fadeIn 0.5s ease forwards;
 }
 
@@ -154,11 +115,11 @@ main {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.8); /* 시작 시 작아지면서 나타나기 */
+    transform: translate(-50%, -50%) scale(0.8);
   }
   to {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1); /* 최종 크기로 나타나기 */
+    transform: translate(-50%, -50%) scale(1);
   }
 }
 
